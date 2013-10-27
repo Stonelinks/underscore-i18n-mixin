@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="underscore-i18n-mixin.js"></script>
+    <script>
+      
+      // dummy gettext
+      var gettext = function(a) {
+        return a;
+      }
+    
+      _.each(['hey', 'hi', 'ho'], function(a) {
+        console.log(a);
+      });
+      
+      console.log(_.template('hey! you <%t \'got\' %> <%= thing %>', {thing: 'buttslammed'}))
+
+    </script>
+</head>
+
+<body>
+</body>
+</html>

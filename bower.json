@@ -1,0 +1,20 @@
+{
+  "name": "underscore-i18n-mixin",
+  "main": "underscore-i18n-mixin.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Stonelinks/underscore-i18n-mixin",
+  "authors": [
+    "Lucas Doyle <lukedoyle@mujin.co.jp>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}

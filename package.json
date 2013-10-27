@@ -1,0 +1,32 @@
+{
+  "name": "underscore-i18n-mixin",
+  "version": "0.0.1",
+  "description": "underscore template mixin for i18n (gettext) support ",
+  "main": "underscore-i18n-mixin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stonelinks/underscore-i18n-mixin.git"
+  },
+  "keywords": [
+    "underscore",
+    "template",
+    "i18n"
+  ],
+  "author": "Lucas Doyle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stonelinks/underscore-i18n-mixin/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.5.0",
+    "matchdep": "~0.3.0"
+  }
+}
