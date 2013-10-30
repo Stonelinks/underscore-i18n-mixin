@@ -22,7 +22,7 @@ module.exports = function(grunt) {
                 files: [
                     './**/*.js',
                     './**/*.html'
-                ],
+                ]
                 // tasks: ['jekyll']
             }
         },
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
             options: {
                 hostname: '*',
                 port: 1234,
-                livereload: 12345,
+                livereload: 12345
                 // base: '_site'
             },
 
