@@ -1,6 +1,6 @@
 {
   "name": "underscore-i18n-mixin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "underscore template mixin for i18n (gettext) support ",
   "main": "underscore-i18n-mixin.js",
   "scripts": {
