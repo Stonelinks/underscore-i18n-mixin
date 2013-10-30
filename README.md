@@ -1,5 +1,7 @@
 #underscore-i18n-mixin
-=====================
+
+
+
 
 ###What is this?
 A small snippet that overrides `_.template()` to support calls to a `gettext()` function.
@@ -11,4 +13,4 @@ I made it so that it would be easy to use django's [javascript translation catal
 Put strings you want translated inside a tag that `<%t 'looks like this' %>`.
 
 ###How does it work?
-It is really simple. It essentially transforms your tags `<%= gettext('into this') %>` and then passes it into the original `_.template()` function. 
+It is really simple. It essentially transforms your tags `<%= gettext('into this') %>` and then passes the transformed text into the original `_.template()` function. 
