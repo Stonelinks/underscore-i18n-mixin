@@ -13,4 +13,4 @@ I made it so that it would be easy to use django's [javascript translation catal
 Put strings you want translated inside a tag that `<%t 'looks like this' %>`.
 
 ###How does it work?
-It is really simple. It essentially transforms your tags `<%= gettext('into this') %>` and then passes the transformed text into the original `_.template()` function. 
+It is really simple. It essentially transforms your tags to look like this: `<%= gettext('hey there') %>` and then passes the transformed text into the original `_.template()` function. 
